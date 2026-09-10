@@ -1,0 +1,44 @@
+# Phosphor
+#
+# Design and illustration: Timo Kuilder — timokuilder.com
+# Theme: Jankees van Woezik
+#
+# Windows sit on a deeper blue; Timo's #2A49FF stays the wallpaper and comes
+# back as the border colour. Selection is a deep navy so it stands out against
+# the window blue while the white selection text stays readable.
+
+mode = "dark"
+
+# Border around inactive windows. Without this line Omarchy falls back to
+# rgba(595959aa), which puts a grey outline around everything.
+hyprland_inactive_border = "rgba(101C6Eaa)"
+
+accent = "#44E8CB"
+selection = "#070C3A"
+muted = "#A9B7F2"
+
+background = "#1B2FB0"
+dark_background = "#152590"
+darker_background = "#101C6E"
+lighter_background = "#2A49FF"
+
+foreground = "#FFFFFF"
+dark_foreground = "#B4C2FF"
+light_foreground = "#E4E9FF"
+bright_foreground = "#FFFFFF"
+
+red = "#FF8A8A"
+yellow = "#FFE45C"
+orange = "#FFA95C"
+green = "#6BF5A8"
+cyan = "#44E8CB"
+blue = "#9DB6FF"
+magenta = "#FF9BEE"
+brown = "#D3A06A"
+
+bright_red = "#FFB0B0"
+bright_yellow = "#FFF08A"
+bright_green = "#8CFFC0"
+bright_cyan = "#7DF5E0"
+bright_blue = "#C7D6FF"
+bright_magenta = "#FFBDF4"
