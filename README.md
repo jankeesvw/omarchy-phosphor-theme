@@ -25,15 +25,7 @@ Timo's drawing sits on the bright `#2A49FF`. Windows sit a good deal deeper on `
 ## Install in Omarchy
 
 ```bash
-git clone git@github.com:jankeesvw/omarchy-phosphor-theme.git ~/Documents/github.com/jankeesvw/omarchy-phosphor-theme
-ln -sfn ~/Documents/github.com/jankeesvw/omarchy-phosphor-theme ~/.config/omarchy/themes/phosphor
-omarchy theme set phosphor
-```
-
-Or straight from the repo, letting Omarchy manage the clone:
-
-```bash
-omarchy theme install git@github.com:jankeesvw/omarchy-phosphor-theme.git
+omarchy theme install https://github.com/jankeesvw/omarchy-phosphor-theme
 ```
 
 Cycle the backgrounds with `omarchy theme bg next`.
